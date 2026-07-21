@@ -4,7 +4,7 @@ This repo hosts the public privacy policy for the
 [Party Pal — Birthday Reminder](https://chrome.google.com/webstore) Chrome
 extension, served via GitHub Pages.
 
-- **Live URL:** `https://<your-github-username>.github.io/party-pal-privacy/`
+- **Live URL:** https://kitaaj.github.io/party-pal-privacy/
 - Use that URL in the Chrome Web Store listing's "Privacy policy" field.
 
 ## Editing
