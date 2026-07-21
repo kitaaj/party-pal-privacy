@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Party Pal — Privacy Policy</title>
+    <meta
+      name="description"
+      content="Privacy policy for the Party Pal — Birthday Reminder Chrome extension."
+    />
+    <style>
+      :root {
+        --bg: #fff;
+        --card: #fff;
+        --text: #1c1917;
+        --muted: #6b7280;
+        --border: #ececec;
+        --accent: #f43f5e;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0d0b0c;
+          --card: #171314;
+          --text: #f5f0f0;
+          --muted: #9b9295;
+          --border: #2a2426;
+          --accent: #fb7185;
+        }
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+      }
+      .wrap { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+      header { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
+      .logo {
+        width: 40px; height: 40px; border-radius: 11px;
+        background: linear-gradient(145deg, var(--accent), #b91c4c);
+        display: grid; place-items: center; color: #fff; font-size: 20px;
+      }
+      h1 { font-size: 1.6rem; margin: 0; letter-spacing: -0.02em; }
+      .updated { color: var(--muted); font-size: 0.9rem; margin: 4px 0 32px; }
+      h2 { font-size: 1.1rem; margin: 32px 0 8px; letter-spacing: -0.01em; }
+      p, li { color: var(--text); }
+      ul { padding-left: 20px; }
+      li { margin: 6px 0; }
+      a { color: var(--accent); }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        padding: 24px 28px;
+      }
+      .muted { color: var(--muted); }
+      footer { margin-top: 40px; color: var(--muted); font-size: 0.85rem; }
+      code { background: rgba(127,127,127,0.14); padding: 1px 6px; border-radius: 5px; font-size: 0.9em; }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <div class="logo" aria-hidden="true">🎂</div>
+        <h1>Party Pal — Privacy Policy</h1>
+      </header>
+      <p class="updated">Last updated: 21 July 2026</p>
+
+      <div class="card">
+        <p>
+          Party Pal ("the Extension") is a browser extension that helps you
+          remember birthdays. We built it to be private by default: your data
+          stays in your browser, and we do not operate a server that receives it.
+        </p>
+
+        <h2>Data the Extension stores</h2>
+        <ul>
+          <li>Birthday entries you enter: name, date, and optional notes and photo URL</li>
+          <li>Photos you upload from your device</li>
+          <li>Your settings: notification preferences and theme</li>
+        </ul>
+
+        <h2>Where your data is stored</h2>
+        <ul>
+          <li>
+            Birthday entries and settings are stored in your browser via Chrome's
+            <code>sync</code> storage. If you are signed into Chrome with sync
+            enabled, Chrome may sync this data across your devices in accordance
+            with Google's policies.
+          </li>
+          <li>
+            Photos you upload are stored in your browser via Chrome's
+            <code>local</code> storage. They remain on the device where you added
+            them and are <strong>not</strong> synced.
+          </li>
+        </ul>
+
+        <h2>What we do not do</h2>
+        <ul>
+          <li>We do not operate a Party Pal server that receives your birthday list</li>
+          <li>We do not sell or share your personal data</li>
+          <li>We do not show third-party ads or include third-party trackers</li>
+        </ul>
+
+        <h2>Optional photo URLs</h2>
+        <p>
+          If you paste a photo URL instead of uploading a file, your browser will
+          request that image directly from the host you specified when it is
+          displayed. That request is between your browser and that host; it does
+          not pass through us.
+        </p>
+
+        <h2>Permissions</h2>
+        <ul>
+          <li><strong>storage / unlimitedStorage</strong> — save your birthdays, photos, and settings on your device</li>
+          <li><strong>alarms</strong> — run a once-daily check for upcoming birthdays</li>
+          <li><strong>notifications</strong> — show desktop alerts when a birthday is near</li>
+        </ul>
+
+        <h2>Data deletion</h2>
+        <p>
+          You control your data. Deleting an entry removes it (and its photo) from
+          storage. Removing the Extension deletes its local data; synced data is
+          managed through your Google account's Chrome sync settings.
+        </p>
+
+        <h2>Contact</h2>
+        <p>
+          Questions about this policy? Email
+          <a href="mailto:kitaajohn3@gmail.com">kitaajohn3@gmail.com</a>.
+        </p>
+
+        <h2>Changes</h2>
+        <p>
+          We may update this policy when the Extension changes. The "Last updated"
+          date above will change accordingly.
+        </p>
+      </div>
+
+      <footer>© 2026 Party Pal. This page is the official privacy policy for the Party Pal Chrome extension.</footer>
+    </div>
+  </body>
+</html>
